@@ -42,8 +42,49 @@ This project seeks build a data analytics model for a real estate agency that wi
 7.	The age of the house.
 8.	If the house is old, whether it has ever been renovated.
 ## BUSINESS OBJECTIVES
+To complete this project, our main business objectives will be the following:
+To build a data analytics model for a real estate agency that helps homeowners buy and/or sell homes in King County, Washington.
+To develop a model that will help in identifying the set of attributes that will realize the best value to a home buyer and optimal returns to the home seller.
+To provide insight to homeowners and buyers about:<br>
+i.) How weather seasons may affect the sales volume and mean sale price of homes in King County.<br>
+ii.) How the grade of a house may affect the sales volume and mean sale price of homes in King County.<br>
+iii.) How the number of bedrooms affect the sales volume and mean sale price of homes in King County.<br>
+To find out whether there is a variation in sales volume and mean sale prices across different locations in King County.
 
-
+## STUDY QUESTIONS
+What is the relationship between weather season and sales performance?<br>
+Which is the best weather season to buy a house?<br>
+Which are the best performing house grades?<br>
+What is the optimal range of a house grade for different budgets?<br>
+What is the relationship between number of bedrooms and sales performance?<br>
+What is the optimal range of bedrooms for different budgets?<br>
+Which set of variables has the highest influence on the sale price of a house?<br>
+How are the house prices and house sale volumes distributed around the county?
+## DATA UNDERSTANDING
+The dataset kc_house_data.csv, has 21,597 rows and 21 columns. Below is a description of the variables in the dataset.
+| Column           | Description                                                                                       |
+|------------------|---------------------------------------------------------------------------------------------------|
+| **id**               | Identification for a house                                                                        |
+| date             | Date house was sold                                                                               |
+| price            | Sale price for a house, which is the target variable                                             |
+| bedrooms         | Number of bedrooms                                                                                |
+| bathrooms        | Number of bathrooms                                                                               |
+| sqft_living      | Size of living area in square feet                                                                |
+| sqft_lot         | Size of the lot in square feet                                                                    |
+| floors           | Total number of floors (levels) in the house                                                      |
+| waterfront       | '1' if the property has a view to a waterfront, '0' if not                                       |
+| view             | A rating of Fair, Average, Good, Excellent depending on the view of the property                  |
+| condition        | Overall condition of the house                                                                    |
+| grade            | An index from 1 to 13 indicating the quality level of construction and design                     |
+| sqft_above       | Square footage of the house excluding the basement                                               |
+| sqft_basement    | Square footage of the basement                                                                    |
+| yr_built         | Year the house was built                                                                          |
+| yr_renovated     | Year when the house was last renovated. '0' if it has never been renovated                       |
+| zipcode          | 5-digit zip code of the house                                                                     |
+| lat              | Latitude coordinate                                                                               |
+| long             | Longitude coordinate                                                                              |
+| sqft_living15    | Average size of interior living space of the 15 closest houses, in square feet                    |
+| sqft_lot15       | Average size of the land lots for the 15 closest houses, in square feet  
 
 ### The Data
 
