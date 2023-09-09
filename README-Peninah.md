@@ -152,7 +152,7 @@ ii.) The distribution of mean sale price by number of bedrooms, which shows that
 
 ![Distribution of mean sale price by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/84a74027-035d-44b8-8909-a0af704e18d3)
 
-### The set of variables has the highest influence on the sale price of a house
+### 4. The set of variables has the highest influence on the sale price of a house
 From our regression modelling, we found out that the five influential factors affecting house sale volume and mean sale price are:
 
 i.) The size of the interior living area in square feet<br>
@@ -163,7 +163,7 @@ v.) The number of bathrooms<br>
 
 ![Regression Plots of the Best Fitting Multiple Linear Regression Model](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/52e8011b-2116-44f9-a042-52a17d4f7f85)
 
-### Distribution of house prices and house sale volumes around the county
+### 5. Distribution of house prices and house sale volumes around the county
 We created a heatmap that shows that the top 20 locations in count of sales are in the north western region of Seattle.
 
 ![Heatmap for the Distribution of Top House Sale Volumes in King County](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/d4da93d0-f81f-45b8-a39a-be310f0f4682)
@@ -174,11 +174,10 @@ We also created a heatmap that reveals that all the top 10 mean sale prices came
 
 This trend is to be expected, since Seattle is the most populous and most advanced city in King County and in the Washington State in general. Therefore, the number of homes on sale, the demand for houses, and the ability to purchase more expensive homes is to be found in Seattle.
 
-### 3D Scatter Plots
+### 6. 3D Scatter Plots
 3D scatter plots of different combinations of the most influential predictor variables show a high correlation among them.
 
 ![3D Scatter Plots](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/3f87234b-5bcb-4dd3-b90d-e2ccbb047aed)
-
 
 3D scatter plot 1 shows that at different grades, the sale price increases with an increase in both sqft_living and sqft_above. However, the count of sales is denser between grade 6 and 8, and at the lower levels of both sqft_living and sqft_above.
 
@@ -188,140 +187,105 @@ This trend is to be expected, since Seattle is the most populous and most advanc
 
 3D scatter plot 4 shows that different grades, the sale price increases with an increase in both the number of bathrooms and sqft_living. However, the count of sales is denser between grade 6 and 8, and also between 3 and 5 bedrooms at the lower levels of sqft_living.
 
-### 2. 
+# CONCLUSION
+The Set of Variables with the Highest Effect on Sales and Mean Sale Price
 
-### The Data
+From our regression modelling, we found out that the five influential factors affecting house sale volume and mean sale price are:<br>
+i.) The size of the interior living area in square feet<br>
+ii.) The grade of the house, which is a classification by construction quality<br>
+iii.) The square footage of the house excluding the basement<br>
+iv.) The average size of interior living space for the closest 15 houses, in square feet<br>
+v.) The number of bathrooms<br>
 
-I will be working with 4 Datasets out of the 11 provided:
+## Seasonal Variation of Sales Performance
 
-* df_movie_gross
-* df_movie_budgets
-* df_imdb_rating
-* df_title_basics
-  
-These data sets focus mostly on the various movie studios, revenue generated, genres of movies, and their popularity.
+The northwestern States are characterized by sub-zero degree Winter months, which leads to more people willing to sell their houses so that they can move to warmer regions in the south. There are also fewer potential buyers during the colder months.
 
-## METHODOLOGY
+Our analysis reveals that there is a variation in the volume of sales across the months in year.<br>
 
-![data-cleansing](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/c3b83118-879b-46f9-bea6-f592a08996e4)
+i.) January and February starts off the year with low sales of around 1,000 houses per month.<br>
+ii.) The volume starts to rise in March, where it is about 1,500 houses.<br>
+iii.) From April to July, the volume is about 2,000 houses per month.<br>
+iv.) May has the highest volume at above 2,000 houses.<br>
+v.) The volume starts to decline to around 1,700 houses in August and 1,500 houses in September.<br>
+vi.) There is a slight increase in October, but the price then drops through November and December.
 
-Data was pre-processed and cleaned by:
+This trend coincides with the seasons in the USA. Winter runs from December to Mid-March, and the Northwestern States being colder, people tend to move to warmer southern states or countries.<br>
 
->Viewing the data set and data type.
->Checking for missing values. 
->Checking for duplicate values.
+Spring runs from mid-March to mid-June, while Summer runs from June to August. During this period, a significant number of people may move back to the northwestern states, thus raising the demand for houses.<br>
 
-![DataVisualization](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/bfcbe942-64a6-49da-a1d2-40c7a9c47697)
+Finally, Fall, which runs from September to December, heralds the start of another cold season, at which people start moving out of the northwestern states.<br>
 
-Data was analyzed and visualized by tools like:
+The distribution of mean sale prices over the months in a year also shows that there are significant differences.<br>
+i.) The months of January and February have lower mean prices of between $500,000 and $525,000.<br>
+ii.) The mean price from March to August is around $550,000 or higher. April has the highest mean price of above $550,000.<br>
+iii.) The mean price drops slightly in August and September, rises slightly in October, and then drops again in November and December.<br>
 
->Vertical and horizontal graphs, line graphs and scatter plots.
+## Grade
 
-## RESULTS
+Grade is a classification by construction quality which refers to the types of materials used and the quality of workmanship. It is regulated by the King County Local government, and therefore, this is an important factor to anyone looking to buy a house.
 
-![avengers-avengers-endgame](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/64508e7c-b35b-4c23-af34-61497a28f769)
+Our analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about 8,000 houses. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around 100 or fewer.
 
+Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between $250,000 to $500,000. From grade 9 to 13, the mean sale price rises from around $600,000 to over $3,500,000.
 
-## Top 10 Titles by Domestic and Foreign Gross
-## Top 10 Studios by Domestic and Foreign Gross
+## Number of Bedrooms
 
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/2680675a-fdbd-4a87-a496-51586289572c)
+On all social media platforms and social environments, almost everyone wants to know the number of bedrooms when they're scouting for houses. We therefore saw the need to find out if there is a relationship between the number of bedrooms and sales perfomance.
 
-### FINDINGS
+Our analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:
 
-We can see that the leading movie is Star Wars followed by Black Panther, Avengers, Jurassic World, Marvel Avengers etc.
-We can see that the leading studio is BV followed by Uni, WB, Fox and etc.
-This graph provides insights into leading studios and movies into their respective revenue contributions.
+i.) The sales volume, which follows a normal distribution with a peak volume of 8,000 houses at the median number of 3 bedrooms.<br>
+ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is $1,200,000 at 8 bedrooms. For houses with 3 bedrooms, the mean price is only $465,000.
 
-## Movie Budget vs Gross Figures
+## Distribution of Sales and Mean Sale Prices by Location
 
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/923c65e9-2d4e-43ac-a475-a4fde541aff0)
+The heatmap showing the top 20 in count of sales shows that the north western region of Seattle has the most dense concentration of zipcodes with top 20 in sales volume.
 
-### FINDINGS
+The heatmap showing the locations with top 10 mean prices also reveals that all the top 10 mean sale prices came from the north western region of Seattle.
 
-There’s similarity with the analysis from top 10 studios and movies seeing Avengers and Star Wars appearing to be leading in both of these and are all from BV studio.
+This trend is to be expected, since Seattle is the most populous and most advanced city in King County and in the Washington State in general. Therefore, the number of homes on sale, the demand for houses, and the ability to purchase more expensive homes is to be found in Seattle.
 
-## Top 10 Movies by Profit
+# RECOMMENDATIONS TO HOME OWNERS AND BUYERS
 
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/76958c63-12ce-41f6-9ee5-fe5bdf0082ed)
+For a home buyer to realize the best value their home buyer and a seller or real estate agency to fetch optimal returns, they should give higher consideration to these five factors:<br>
+i.) The size of the interior living area in square feet<br>
+ii.) The grade of the house, which is a classification by construction quality<br>
+iii.) The square footage of the house excluding the basement<br>
+iv.) The average size of interior living space for the closest 15 houses, in square feet<br>
+v.) The number of bathrooms
 
-### FINDINGS
+We advise a buyer to consider buying a house in the offpeak months of January, February, September, October, November, or December, since this is the period they're likely to get a significant discount.
+To a seller, we advise them to consider selling in the peak months from March to August, since this is the period when the demand is high and they're also likely to sell at a significant margin compared to the offpeak months.
 
-From the graph above showing the Top 10 Movies by Profit, we still see that Avatar, Star Wars, Avengers, and Black Panther are leading in profits. 
+There is a significant difference in mean sale price between different house grades. Therefore, if a buyer wants a low-budget house or around $500,000 or less, we would advise them to consider houses between grade 3 and 8. If they have the budget for a more expensive house above $500,000, we would advise them to go for between grade 9 and 13.
+For a seller wishing to fetch the highest price in the market, they should go for grade 13 houses. If they want to sell low-priced houses quickly, then they should sell houses with between grades 3 and 8.
 
-Looking at these movies strategies will definitely be of help to Microsoft on launching their movie studio.
+If a buyer wants a low-budget house (between $300,000 and $700,000), we would advise them to consider houses with between 1 and 4 bedrooms. If they have the budget for a more expensive house above $800,000, we would advise them to go for between 5 and 10 bedrooms.
+For a seller wishing to fetch the highest price in the market, they should go for 8-bedroom houses. If they want to sell low-priced houses quickly, then they should sell houses with between 1 and 4 bedrooms.
 
-## Top 10 Genres by Average Rating and Number of Votes
+If a buyer wants a wider variety of high-grade homes on sale, they should search in Seattle region. However, this is also the region with the highest mean sale price.
+For a real estate agency that buys and sells homes, most business is to be find in Seattle and the northwestern region of the King County in general.
 
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/24933fd3-8bae-4d44-aadc-ff9a7a09a768)
+# STUDY LIMITATIONS
 
-### FINDINGS
+Our best multiple linear regression model achieved an R-squared value of 0.546 and an overall p-value of 0.00. These metrics suffice for the present inferential modelling but are lower than the standard required for predictive modelling which would require at least an R-squared of 0.8.
 
-The most voted genres are Mystery, News, and Thriller, followed by Adventure and Action, Adventure, Musical, etc.
+We did not have data about the profitability per sale. Therefore, we could not ascertain whether the distribution of mean sale price or the sales volume correlates with profitability.
+Moreover, buildings of better quality (higher grade) cost more to build per unit of measure and therefore, it could be possible that their profitability is not as high as lower-grade houses.
 
-The most voted Primary Titles are The Paternal Bond followed by Freeing Bernie Baran and etc, these are not similar to leading movies as to the ones we saw before with high income gross.
+We did not have data about proximity to amenities such as schools, transport infrastructure, and so on, and therefore, we could not determine how they would affect sales performance.
 
-## Top 10 Genres by Average Profit
+The data is not augmented with data about enabling factors such as the state of the economy in County and the interest rates.
 
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/f60a2246-abc5-45da-aac7-ee0f234dc542)
+# RECOMMENDATIONS FOR FUTURE RESEARCH
 
-### FINDINGS
+Future studies should get data about profitability of the house sales, so as to find out the relationship between sales performance and profitability. This would provde a real estate agency with more solid advice about sales performance.
 
-Genres with higher average profit can be considered more lucrative, making them potentially more attractive for investment or production decisions, so priority should be placed on producing movie genres like adventure, comedy, and romance.
+Future studies should also find out proximity of amenities such as schools, and transport infrastructure. These could be confounding variables that could have skewed the sales performance. Also, the current report does not help a buyer to know if a house of their choice will afford them these proximity to these important amenities.
 
-## Correlation between Genres and Return on Investment (ROI)
-
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/22233a83-4fa9-495b-bff4-062ae8c1f246)
-
-### FINDINGS
-
-Genres with higher positive correlation values such as Mystery, Adventure, and Drama, are also leading in profit, average rating, and gross amounts and are more likely to yield better returns on investment.
-
-These genres have historically shown a stronger association with higher ROI.
-
-## Correlation Heatmap of Attributes with Gross Profit
-
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/1905e6eb-a818-4e71-9211-081616af0dff)
-
-### FINDINGS
-
-The heat map represents correlation with red being a positive correlation and blue being a negative correlation.
-
-We can observe a Positive Correlation between:
-
->'production_budget' and 'worldwide_gross'.
->'production_budget' and 'profit'.
->'worldwide_gross' and 'profit' have the highest correlation.
-
-## Correlation between Profit, Worldwide Gross, and Production Budget
-
-![image](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/b2f83e1f-8d9b-45bc-949c-f83a9431c2e6)
-
-### FINDINGS 
-
-The linear graph also shows that 'production_budget' and 'profit' have a positive correlation, indicating that movies with higher production budgets tend to have higher profits, but 'profit' and 'worldwide_gross' have more similarities.
-
-## CONCLUSION AND RECOMMENDATIONS
-
-Microsoft needs a big production budget as it translates to successful gross income.
-
- Collaborations will help ease the transition to the new movie field by:
- 
- >a) Working with already established Studios such as Walt Disney.
-
- >b) Using product placement from various companies to generate revenue which can be used in the production budget.
-
-Movie genres to prioritize are adventure, comedy, and romance to name a few as they were highly ranked and had high gross income.
-
-Research top-tier content and the latest trends to incorporate in movies such as the latest stories or technology to be used in movie making such as Computer Generated  Images (CGI).
-
-Create a very strong marketing team to ensure the success of the movies both locally and internationally as worldwide gross had the highest correlation to profit.
-
-Create a strong fan base by making merchandise that will also bring in revenue which can be channeled into the production budget which is a key factor in determining the success of movies.
-
+Augmenting the dataset with data about more enabling factors such as the state of the economy in County and the interest rates. This would enable a seller to know the best times to sell and when not to sell. It would also inform a buyer about the best times to buy or take up mortgage.
 
 ## FOR MORE INFORMATION
 
 Please view the full data analysis on the Jupyter Notebook (student.ipynb) and the presentation.
-
-![end](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/6f68fc87-3eef-4f85-a1cd-f7645a104de8)
