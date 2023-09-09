@@ -1,14 +1,12 @@
 # Phase 2 Project
 
-![Real Estate]([https://img.freepik.com/premium-photo/real-estate-sales-manager-giving-keys-customer-after-signing-rental-lease-contract_28283-1047.jpg?w=900))
-
 # BUSINESS ANALYSIS OF HOUSE SALES IN KING COUNTY, WASHINGTON 
 ## AUTHORS: 
 ## <u>Group 24 Members</u>
-1. Samuel Gichanga
-2. Leonard Mwangi
-3. Moses Thiong'o
-4. Evangeline Ngunjiri
+*1. Samuel Gichanga*
+*2. Leonard Gachimu*
+*3. Moses Thiong'o*
+*4. Evangeline Ngunjiri*
 
 Part Time Data Science Program
 
@@ -188,7 +186,7 @@ This trend is to be expected, since Seattle is the most populous and most advanc
 3D scatter plot 4 shows that different grades, the sale price increases with an increase in both the number of bathrooms and sqft_living. However, the count of sales is denser between grade 6 and 8, and also between 3 and 5 bedrooms at the lower levels of sqft_living.
 
 # CONCLUSION
-The Set of Variables with the Highest Effect on Sales and Mean Sale Price
+## The Set of Variables with the Highest Effect on Sales and Mean Sale Price
 
 From our regression modelling, we found out that the five influential factors affecting house sale volume and mean sale price are:<br>
 i.) The size of the interior living area in square feet<br>
@@ -288,4 +286,4 @@ Augmenting the dataset with data about more enabling factors such as the state o
 
 ## FOR MORE INFORMATION
 
-Please view the full data analysis on the Jupyter Notebook (student.ipynb) and the presentation.
+Please view the full data analysis on the Jupyter Notebook (student.ipynb) and the presentation pdf.
