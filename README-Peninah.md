@@ -28,7 +28,7 @@ This project seeks build a data analytics model for a real estate agency that wi
 
 >For a real estate firm, the challenge is to make informed pricing decisions that will account for all the complex interrelated factors. This can lead them to misadvise home buyers and sellers as well as unnecessary loss of business opportunities and reputation.
 
->Our project seeks to help Team Howlett Real Estate Agents, a real estate agency in King County, make more informed and data-driven pricing strategies for homes in King County.
+>Our project seeks to help [Team Howlett Real Estate Agents](https://www.teamhowlett.com/), a real estate agency in King County, make more informed and data-driven pricing strategies for homes in King County.
 ## BUSINESS UNDERSTANDING
 **Specific Factors that Influence the Price of a Home in King County:**
 1.	Location-specific conditions include traffic, freeway access, noise, crime, sun exposure, views, parking, neighboring homes, vacant lots, access to quality schools, parks, shops, restaurants.
@@ -40,7 +40,7 @@ This project seeks build a data analytics model for a real estate agency that wi
 7.	The age of the house.
 8.	If the house is old, whether it has ever been renovated.
 
-## Introducing Team Howllet Realtors
+## Introducing [Team Howlett Real Estate Agents](https://www.teamhowlett.com/)
 This is a real estate agency in King County, Washington, that guides buyer and sellers through the entire real estate transaction, from start to finish.
 
 ## BUSINESS OBJECTIVES
