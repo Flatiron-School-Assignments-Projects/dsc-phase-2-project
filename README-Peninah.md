@@ -131,6 +131,17 @@ ii.) The mean price from March to August is around $550,000 or higher. April has
 iii.) The mean price drops slightly in August and September, rises slightly in October, and then drops again in November and December.<br>
 
 ![Distribution of mean sale price by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/a311d00d-af9e-42e3-a0b0-b0fe9fdee95b)
+### 2. Relationship between house grade and sales performance
+Our analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about 8,000 houses. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around 100 or fewer.
+
+![Distribution of sales volume by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/40bf1241-f1d0-4638-86dd-b8c312847343)
+
+Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between $250,000 to $500,000. From grade 9 to 13, the mean sale price rises from around $600,000 to over $3,500,000.
+
+![Distribution of mean sale price by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/8f714ddd-5634-42d1-8489-a7ea486936e5)
+
+### 3. The relationship between number of bedrooms and sales performance
+
 
 
 ### 2. 
