@@ -18,21 +18,32 @@ Technical Mentor: Stella Waithera
 
 ![Forbes](https://imageio.forbes.com/specials-images/imageserve/62437975bb1b55afcd4ab6ab/real-estate-concept/960x0.jpg)
 
-## Project Overview
+## PROJECT OVERVIEW
 
 This project seeks build a data analytics model for a real estate agency that will help homeowners buy and/or sell homes in King County, Washington.
 
-### Business Problem
+## BUSINESS PROBLEM
 
-To help Microsoft with information on the movie industry based on readily available historical data of past movies such as:
+> King County, being the home of Seattle, the most advanced and populous city in Washington and the 13th most populous in the USA, has a competitive real estate industry.
 
->Identify and analyze the most successful movie studios and the genre.
+>As such, there is a complex and dynamic relationship among many factors that affect the market value of real estate property. These factors include the weather season, the location of the property, the grade of the house, the presence of a scenic view, the number of floors, the age of the house, various dimensions such as the size of the interior living space, and the size of the lot.
 
->Explore the most-rated movie genres to target the popular niche.
+>For a real estate firm, the challenge is to make informed pricing decisions that will account for all the complex interrelated factors. This can lead them to misadvise home buyers and sellers as well as unnecessary loss of business opportunities and reputation.
 
->Analyze factors leading to high ROI.
+>Our project will seek to help real estate agencies make more informed and data-driven pricing strategies for homes in King County.
+## BUSINESS UNDERSTANDING
+**Specific Factors that Influence the Price of a Home in King County:**
+1.	Location-specific conditions include traffic, freeway access, noise, crime, sun exposure, views, parking, neighboring homes, vacant lots, access to quality schools, parks, shops, restaurants.
+2.	Condition - the overall condition of the house affects its market value.
+3.	Grade is a classification by construction quality which refers to the types of materials used and the quality of workmanship. It is regulated by the King County Local government.
+4.	Various dimensions in square feet, such as the size of the interior living space, the lot, the basement, as well the average dimension of neighboring houses.
+5.	The number of bedrooms and bathrooms.
+6.	Presence of a scenic view.
+7.	The age of the house.
+8.	If the house is old, whether it has ever been renovated.
+## BUSINESS OBJECTIVES
 
->Translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create and also aid in reducing business risks.
+
 
 ### The Data
 
