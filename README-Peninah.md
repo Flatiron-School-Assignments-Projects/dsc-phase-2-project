@@ -166,12 +166,18 @@ v.) The number of bathrooms<br>
 ### Distribution of house prices and house sale volumes around the county
 We created a heatmap that shows that the top 20 locations in count of sales are in the north western region of Seattle.
 
+![Heatmap for the Distribution of Top House Sale Volumes in King County](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/d4da93d0-f81f-45b8-a39a-be310f0f4682)
+
 We also created a heatmap that reveals that all the top 10 mean sale prices came from the north western region of Seattle.
+
+![Heatmap for the Distribution of Top Mean House Sale Price in King County](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/a5064611-c13a-4a46-a3d7-7eca0bf62215)
 
 This trend is to be expected, since Seattle is the most populous and most advanced city in King County and in the Washington State in general. Therefore, the number of homes on sale, the demand for houses, and the ability to purchase more expensive homes is to be found in Seattle.
 
 ### 3D Scatter Plots
 3D scatter plots of different combinations of the most influential predictor variables show a high correlation among them.
+
+![3D Scatter Plots](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/3f87234b-5bcb-4dd3-b90d-e2ccbb047aed)
 
 
 3D scatter plot 1 shows that at different grades, the sale price increases with an increase in both sqft_living and sqft_above. However, the count of sales is denser between grade 6 and 8, and at the lower levels of both sqft_living and sqft_above.
