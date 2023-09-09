@@ -28,7 +28,7 @@ This project seeks build a data analytics model for a real estate agency that wi
 
 >For a real estate firm, the challenge is to make informed pricing decisions that will account for all the complex interrelated factors. This can lead them to misadvise home buyers and sellers as well as unnecessary loss of business opportunities and reputation.
 
->Our project will seek to help real estate agencies make more informed and data-driven pricing strategies for homes in King County.
+>Our project seeks to help Team Howlett Real Estate Agents, a real estate agency in King County, make more informed and data-driven pricing strategies for homes in King County.
 ## BUSINESS UNDERSTANDING
 **Specific Factors that Influence the Price of a Home in King County:**
 1.	Location-specific conditions include traffic, freeway access, noise, crime, sun exposure, views, parking, neighboring homes, vacant lots, access to quality schools, parks, shops, restaurants.
@@ -39,15 +39,19 @@ This project seeks build a data analytics model for a real estate agency that wi
 6.	Presence of a scenic view.
 7.	The age of the house.
 8.	If the house is old, whether it has ever been renovated.
+
+## Introducing Team Howllet Realtors
+This is a real estate agency in King County, Washington, that guides buyer and sellers through the entire real estate transaction, from start to finish.
+
 ## BUSINESS OBJECTIVES
 To complete this project, our main business objectives will be the following:
-To build a data analytics model for a real estate agency that helps homeowners buy and/or sell homes in King County, Washington.
-To develop a model that will help in identifying the set of attributes that will realize the best value to a home buyer and optimal returns to the home seller.
-To provide insight to homeowners and buyers about:<br>
+>To build a data analytics model for Team Howlett Real Estate Agents, a real estate agency that helps homeowners buy and/or sell homes in King County, Washington.
+>To develop a model that will help in identifying the set of attributes that will realize the best value to a home buyer and optimal returns to the home seller.
+>To provide insight to homeowners and buyers about:<br>
 i.) How weather seasons may affect the sales volume and mean sale price of homes in King County.<br>
 ii.) How the grade of a house may affect the sales volume and mean sale price of homes in King County.<br>
 iii.) How the number of bedrooms affect the sales volume and mean sale price of homes in King County.<br>
-To find out whether there is a variation in sales volume and mean sale prices across different locations in King County.
+>To find out whether there is a variation in sales volume and mean sale prices across different locations in King County.
 
 ## STUDY QUESTIONS
 1. What is the relationship between weather season and sales performance?<br>
@@ -244,16 +248,15 @@ The heatmap showing the locations with top 10 mean prices also reveals that all 
 
 This trend is to be expected, since Seattle is the most populous and most advanced city in King County and in the Washington State in general. Therefore, the number of homes on sale, the demand for houses, and the ability to purchase more expensive homes is to be found in Seattle.
 
-# RECOMMENDATIONS TO HOME OWNERS AND BUYERS
-
-For a home buyer to realize the best value their home buyer and a seller or real estate agency to fetch optimal returns, they should give higher consideration to these five factors:<br>
-i.) The size of the interior living area in square feet<br>
-ii.) The grade of the house, which is a classification by construction quality<br>
-iii.) The square footage of the house excluding the basement<br>
-iv.) The average size of interior living space for the closest 15 houses, in square feet<br>
+## RECOMMENDATIONS TO TEAM HOWLETT REALTORS
+For a home buyer to realize the best value their home buyer and a seller or for Team Howlett Reators to fetch optimal returns, they should give higher consideration to these five factors:
+i.) The size of the interior living area in square feet
+ii.) The grade of the house, which is a classification by construction quality
+iii.) The square footage of the house excluding the basement
+iv.) The average size of interior living space for the closest 15 houses, in square feet
 v.) The number of bathrooms
 
-We advise a buyer to consider buying a house in the offpeak months of January, February, September, October, November, or December, since this is the period they're likely to get a significant discount.
+We would advise a buyer to consider buying a house in the offpeak months of January, February, September, October, November, or December, since this is the period they're likely to get a significant discount.
 To a seller, we advise them to consider selling in the peak months from March to August, since this is the period when the demand is high and they're also likely to sell at a significant margin compared to the offpeak months.
 
 There is a significant difference in mean sale price between different house grades. Therefore, if a buyer wants a low-budget house or around $500,000 or less, we would advise them to consider houses between grade 3 and 8. If they have the budget for a more expensive house above $500,000, we would advise them to go for between grade 9 and 13.
@@ -263,9 +266,9 @@ If a buyer wants a low-budget house (between $300,000 and $700,000), we would ad
 For a seller wishing to fetch the highest price in the market, they should go for 8-bedroom houses. If they want to sell low-priced houses quickly, then they should sell houses with between 1 and 4 bedrooms.
 
 If a buyer wants a wider variety of high-grade homes on sale, they should search in Seattle region. However, this is also the region with the highest mean sale price.
-For a real estate agency that buys and sells homes, most business is to be find in Seattle and the northwestern region of the King County in general.
+Therefore, overall the highest real estate business is to be found in Seattle and the northwestern region of the King County in general.
 
-# STUDY LIMITATIONS
+## STUDY LIMITATIONS
 
 Our best multiple linear regression model achieved an R-squared value of 0.546 and an overall p-value of 0.00. These metrics suffice for the present inferential modelling but are lower than the standard required for predictive modelling which would require at least an R-squared of 0.8.
 
