@@ -86,6 +86,31 @@ The dataset kc_house_data.csv, has 21,597 rows and 21 columns. Below is a descri
 | sqft_living15    | Average size of interior living space of the 15 closest houses, in square feet                    |
 | sqft_lot15       | Average size of the land lots for the 15 closest houses, in square feet  
 
+## METHODOLOGY
+Execution of the project involved the following:
+
+### Data Understanding and Cleaning
+We explored the datasets to understand their schema, size, data types, and examine the presence of invalid or inconsistent data such as missing values, duplicates, placeholders, and outliers.
+
+### Data Transformation
+We transformed the data into DataFrames using the Pandas library in Python and I performed different transformations and analyses to suit 
+
+### Feature Engineering
+Based on the avaliable variables, we engineered new variables that would better suit our analysis and modelling.
+
+### Data Analysis 
+We analyzed the relationship between the most influential predictor variables and price, which is the response variable. 
+
+### Multiple Regression Modelling
+We build the best-fitting model for inferring the relationship between predictor variables and the response variable.
+
+### Data Visualization
+We used various visualization methods such as bar plots, histograms, and scatter plots to display our findings and facilitate interpretation.
+
+### Data Interpretation
+We interpreted the various findings and visualizations to build a recommendation for a real estate agency.
+
+
 ### The Data
 
 I will be working with 4 Datasets out of the 11 provided:
