@@ -52,14 +52,14 @@ iii.) How the number of bedrooms affect the sales volume and mean sale price of 
 To find out whether there is a variation in sales volume and mean sale prices across different locations in King County.
 
 ## STUDY QUESTIONS
-What is the relationship between weather season and sales performance?<br>
-Which is the best weather season to buy a house?<br>
-Which are the best performing house grades?<br>
-What is the optimal range of a house grade for different budgets?<br>
-What is the relationship between number of bedrooms and sales performance?<br>
-What is the optimal range of bedrooms for different budgets?<br>
-Which set of variables has the highest influence on the sale price of a house?<br>
-How are the house prices and house sale volumes distributed around the county?
+1. What is the relationship between weather season and sales performance?<br>
+2. Which is the best weather season to buy a house?<br>
+3. Which are the best performing house grades?<br>
+4. What is the optimal range of a house grade for different budgets?<br>
+5. What is the relationship between number of bedrooms and sales performance?<br>
+6. What is the optimal range of bedrooms for different budgets?<br>
+7. Which set of variables has the highest influence on the sale price of a house?<br>
+8. How are the house prices and house sale volumes distributed around the county?
 ## DATA UNDERSTANDING
 The dataset kc_house_data.csv, has 21,597 rows and 21 columns. Below is a description of the variables in the dataset.
 | Column           | Description                                                                                       |
@@ -93,13 +93,16 @@ Execution of the project involved the following:
 We explored the datasets to understand their schema, size, data types, and examine the presence of invalid or inconsistent data such as missing values, duplicates, placeholders, and outliers.
 
 ### Data Transformation
-We transformed the data into DataFrames using the Pandas library in Python and I performed different transformations and analyses to suit 
+We transformed the data into DataFrames using the Pandas library in Python and we performed different transformations and analyses to suit.
 
 ### Feature Engineering
 Based on the avaliable variables, we engineered new variables that would better suit our analysis and modelling.
 
 ### Data Analysis 
 We analyzed the relationship between the most influential predictor variables and price, which is the response variable. 
+
+### Hypothesis Testing
+We tested the statistical significance of the various findings from our analysis.
 
 ### Multiple Regression Modelling
 We build the best-fitting model for inferring the relationship between predictor variables and the response variable.
@@ -110,6 +113,23 @@ We used various visualization methods such as bar plots, histograms, and scatter
 ### Data Interpretation
 We interpreted the various findings and visualizations to build a recommendation for a real estate agency.
 
+## THE FINDINGS
+### 1. The relationship between weather season and sales performance
+Our analysis reveals that there is a significant variation in the volume of sales across the months in year.<br>
+i.) January and February starts off the year with low sales of around 1,000 houses per month.<br>
+ii.) The volume starts to rise in March, where it is about 1,500 houses.<br>
+iii.) From April to July, the volume is about 2,000 houses per month.<br>
+iv.) May has the highest volume at above 2,000 houses.<br>
+v.) The volume starts to decline to around 1,700 houses in August and 1,500 houses in September.<br>
+vi.) There is a slight increase in October, but the price then drops through November and December.
+
+The distribution of mean sale prices over the months in a year also shows that there are significant differences.<br>
+i.) The months of January and February have lower mean prices of between $500,000 and $525,000.<br>
+ii.) The mean price from March to August is around $550,000 or higher. April has the highest mean price of above $550,000.<br>
+iii.) The mean price drops slightly in August and September, rises slightly in October, and then drops again in November and December.<br>
+
+
+### 2. 
 
 ### The Data
 
