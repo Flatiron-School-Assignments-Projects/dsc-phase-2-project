@@ -1,6 +1,6 @@
 # Phase 2 Project
 
-![Real Estate]([https://img.freepik.com/premium-photo/real-estate-sales-manager-giving-keys-customer-after-signing-rental-lease-contract_28283-1047.jpg))
+![Real Estate]([https://img.freepik.com/premium-photo/real-estate-sales-manager-giving-keys-customer-after-signing-rental-lease-contract_28283-1047.jpg?w=900))
 
 # BUSINESS ANALYSIS OF HOUSE SALES IN KING COUNTY, WASHINGTON 
 ## AUTHORS: 
