@@ -141,8 +141,46 @@ Our analysis has also shown that there is a significant difference in mean sale 
 ![Distribution of mean sale price by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/8f714ddd-5634-42d1-8489-a7ea486936e5)
 
 ### 3. The relationship between number of bedrooms and sales performance
+On all social media platforms and social environments, almost everyone wants to know the number of bedrooms when they're scouting for houses. We therefore saw the need to find out if there is a relationship between the number of bedrooms and sales perfomance.
+
+Our analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:<br>
+i.) The sales volume, which follows a normal distribution with a peak volume of 8,000 houses at the median number of 3 bedrooms.<br>
+
+![Distribution of sales volume by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/312e4db1-87b3-4928-8b84-3a706b0c7af7)
+
+ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is $1,200,000 at 8 bedrooms. For houses with 3 bedrooms, the mean price is only $465,000.<br>
+
+![Distribution of mean sale price by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/84a74027-035d-44b8-8909-a0af704e18d3)
+
+### The set of variables has the highest influence on the sale price of a house
+From our regression modelling, we found out that the five influential factors affecting house sale volume and mean sale price are:
+
+i.) The size of the interior living area in square feet<br>
+ii.) The grade of the house, which is a classification by construction quality<br>
+iii.) The square footage of the house excluding the basement<br>
+iv.) The average size of interior living space for the closest 15 houses, in square feet<br>
+v.) The number of bathrooms<br>
+
+![Regression Plots of the Best Fitting Multiple Linear Regression Model](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/52e8011b-2116-44f9-a042-52a17d4f7f85)
+
+### Distribution of house prices and house sale volumes around the county
+We created a heatmap that shows that the top 20 locations in count of sales are in the north western region of Seattle.
+
+We also created a heatmap that reveals that all the top 10 mean sale prices came from the north western region of Seattle.
+
+This trend is to be expected, since Seattle is the most populous and most advanced city in King County and in the Washington State in general. Therefore, the number of homes on sale, the demand for houses, and the ability to purchase more expensive homes is to be found in Seattle.
+
+### 3D Scatter Plots
+3D scatter plots of different combinations of the most influential predictor variables show a high correlation among them.
 
 
+3D scatter plot 1 shows that at different grades, the sale price increases with an increase in both sqft_living and sqft_above. However, the count of sales is denser between grade 6 and 8, and at the lower levels of both sqft_living and sqft_above.
+
+3D scatter plot 2 shows that the sale price increases with an increase in sqft_living, sqft_above, and number of bathrooms. However, the count of sales is denser at the lower levels of all the three variables.
+
+3D scatter plot 3 shows that different grades, the sale price increases with an increase in both sqft_living and sqft_living15. However, the count of sales is denser between grade 5 and 8, and at the lower levels of both sqft_living and sqft_living15.
+
+3D scatter plot 4 shows that different grades, the sale price increases with an increase in both the number of bathrooms and sqft_living. However, the count of sales is denser between grade 6 and 8, and also between 3 and 5 bedrooms at the lower levels of sqft_living.
 
 ### 2. 
 
