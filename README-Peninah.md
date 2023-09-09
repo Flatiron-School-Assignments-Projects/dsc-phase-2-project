@@ -3,10 +3,10 @@
 # BUSINESS ANALYSIS OF HOUSE SALES IN KING COUNTY, WASHINGTON 
 ## AUTHORS: 
 ## <u>Group 24 Members</u>
-*1. Samuel Gichanga*
-*2. Leonard Gachimu*
-*3. Moses Thiong'o*
-*4. Evangeline Ngunjiri*
+*1. Samuel Gichanga*<br>
+*2. Leonard Gachimu*<br>
+*3. Moses Thiong'o*<br>
+*4. Evangeline Ngunjiri*<br>
 
 Part Time Data Science Program
 
