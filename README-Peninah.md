@@ -1,7 +1,6 @@
 # Phase 2 Project
 
-![microsoft](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/c78b951a-91c8-4056-897e-e25d3a72e01a)
-
+![Real Estate]([https://img.freepik.com/premium-photo/real-estate-sales-manager-giving-keys-customer-after-signing-rental-lease-contract_28283-1047.jpg))
 
 # BUSINESS ANALYSIS OF HOUSE SALES IN KING COUNTY, WASHINGTON 
 ## AUTHORS: 
@@ -11,17 +10,17 @@
 3. Moses Thiong'o
 4. Evangeline Ngunjiri
 
-Part time Data Science Program
+Part Time Data Science Program
 
 Due date: 11/09/2023
 
 Technical Mentor: Stella Waithera
 
-![bridge_prod](https://github.com/PennyGituku/dsc-phase-1-project/assets/133040605/a8fd8d30-3186-467f-9a62-b42b591a9b68)
+![Forbes](https://imageio.forbes.com/specials-images/imageserve/62437975bb1b55afcd4ab6ab/real-estate-concept/960x0.jpg)
 
 ## Project Overview
 
-This project seeks to find key areas Microsoft should consider investing in to launch a successful movie studio based on analyzing previous movie data and coming up with recommendations.
+This project seeks build a data analytics model for a real estate agency that will help homeowners buy and/or sell homes in King County, Washington.
 
 ### Business Problem
 
