@@ -123,10 +123,14 @@ iv.) May has the highest volume at above 2,000 houses.<br>
 v.) The volume starts to decline to around 1,700 houses in August and 1,500 houses in September.<br>
 vi.) There is a slight increase in October, but the price then drops through November and December.
 
+![Distribution of sales volume by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/68d8ca9e-0d1e-4ae6-b955-002a5aeb2ef0)
+
 The distribution of mean sale prices over the months in a year also shows that there are significant differences.<br>
 i.) The months of January and February have lower mean prices of between $500,000 and $525,000.<br>
 ii.) The mean price from March to August is around $550,000 or higher. April has the highest mean price of above $550,000.<br>
 iii.) The mean price drops slightly in August and September, rises slightly in October, and then drops again in November and December.<br>
+
+![Distribution of mean sale price by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/a311d00d-af9e-42e3-a0b0-b0fe9fdee95b)
 
 
 ### 2. 
