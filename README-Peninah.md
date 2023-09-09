@@ -45,12 +45,15 @@ This is a real estate agency in King County, Washington, that guides buyer and s
 
 ## BUSINESS OBJECTIVES
 To complete this project, our main business objectives will be the following:
->To build a data analytics model for Team Howlett Real Estate Agents, a real estate agency that helps homeowners buy and/or sell homes in King County, Washington.
->To develop a model that will help in identifying the set of attributes that will realize the best value to a home buyer and optimal returns to the home seller.
+>To build a data analytics model for Team Howlett Real Estate Agents, a real estate agency that helps homeowners buy and/or sell homes in King County, Washington.<br>
+
+>To develop a model that will help in identifying the set of attributes that will realize the best value to a home buyer and optimal returns to the home seller.<br>
+
 >To provide insight to homeowners and buyers about:<br>
 i.) How weather seasons may affect the sales volume and mean sale price of homes in King County.<br>
 ii.) How the grade of a house may affect the sales volume and mean sale price of homes in King County.<br>
 iii.) How the number of bedrooms affect the sales volume and mean sale price of homes in King County.<br>
+
 >To find out whether there is a variation in sales volume and mean sale prices across different locations in King County.
 
 ## STUDY QUESTIONS
