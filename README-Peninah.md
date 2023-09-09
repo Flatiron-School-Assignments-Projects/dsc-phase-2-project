@@ -1,4 +1,4 @@
-# Phase 2 Project
+# Phase 2 Project Submission
 
 # BUSINESS ANALYSIS OF HOUSE SALES IN KING COUNTY, WASHINGTON 
 ## AUTHORS: 
