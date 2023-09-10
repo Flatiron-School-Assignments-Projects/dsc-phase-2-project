@@ -265,7 +265,7 @@ v.) The number of bathrooms
 We would advise a buyer to consider buying a house in the offpeak months of January, February, September, October, November, or December, since this is the period they're likely to get a significant discount.
 To a seller, we advise them to consider selling in the peak months from March to August, since this is the period when the demand is high and they're also likely to sell at a significant margin compared to the offpeak months.
 
-There is a significant difference in mean sale price between different house grades. Therefore, if a buyer wants a low-budget house or around $500,000 or less, we would advise them to consider houses between grade 3 and 8. If they have the budget for a more expensive house above $500,000, we would advise them to go for between grade 9 and 13.
+There is a significant difference in mean sale price between different house grades. Therefore, if a buyer wants a low-budget house of around $500,000 or less, we would advise them to consider houses between grade 3 and 8. If they have the budget for a more expensive house above $500,000, we would advise them to go for between grade 9 and 13.
 For a seller wishing to fetch the highest price in the market, they should go for grade 13 houses. If they want to sell low-priced houses quickly, then they should sell houses with between grades 3 and 8.
 
 If a buyer wants a low-budget house (between $300,000 and $700,000), we would advise them to consider houses with between 1 and 4 bedrooms. If they have the budget for a more expensive house above $800,000, we would advise them to go for between 5 and 10 bedrooms.
