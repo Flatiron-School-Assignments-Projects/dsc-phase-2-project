@@ -295,4 +295,8 @@ Augmenting the dataset with data about more enabling factors such as the state o
 
 ## FOR MORE INFORMATION
 
-Please view the full data analysis on the Jupyter Notebook (student.ipynb) and the presentation pdf.
+For further analysis and the highlights, kindly visit the following:
+1. Our Jupyter notebook file titled student.ipynb in this repository.
+2. Our presentation pdf in this repository. 
+3. Our presentation webpage at this link [https://arcg.is/9LDnb](https://arcg.is/9LDnb) 
+
