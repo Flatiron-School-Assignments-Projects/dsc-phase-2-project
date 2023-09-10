@@ -12,7 +12,7 @@ Part Time Data Science Program
 
 Due date: 11/09/2023
 
-Technical Mentor: Stella Waithera
+Technical Mentor: **Stella Waithera**
 
 ![Forbes](https://imageio.forbes.com/specials-images/imageserve/62437975bb1b55afcd4ab6ab/real-estate-concept/960x0.jpg)
 
@@ -26,7 +26,7 @@ This project seeks build a data analytics model for a real estate agency that wi
 
 >As such, there is a complex and dynamic relationship among many factors that affect the market value of real estate property. These factors include the weather season, the location of the property, the grade of the house, the presence of a scenic view, the number of floors, the age of the house, various dimensions such as the size of the interior living space, and the size of the lot.
 
->For a real estate firm, the challenge is to make informed pricing decisions that will account for all the complex interrelated factors. This can lead them to misadvise home buyers and sellers as well as unnecessary loss of business opportunities and reputation.
+>For a real estate firm, the challenge is to make informed pricing decisions that will account for all the complex interrelated factors. This can lead them to **misadvise home buyers** and sellers as well as **unnecessary loss of business** opportunities and reputation.
 
 >Our project seeks to help [Team Howlett Real Estate Agents](https://www.teamhowlett.com/), a real estate agency in King County, make more informed and data-driven pricing strategies for homes in King County.
 ## BUSINESS UNDERSTANDING
@@ -66,7 +66,7 @@ iii.) How the number of bedrooms affect the sales volume and mean sale price of 
 7. Which set of variables has the highest influence on the sale price of a house?<br>
 8. How are the house prices and house sale volumes distributed around the county?
 ## DATA UNDERSTANDING
-The dataset kc_house_data.csv, has 21,597 rows and 21 columns. Below is a description of the variables in the dataset.
+The dataset kc_house_data.csv, has **21,597 rows** and **21 columns**. Below is a description of the variables in the dataset.
 | Column           | Description                                                                                       |
 |------------------|---------------------------------------------------------------------------------------------------|
 | **id**               | Identification for a house                                                                        |
@@ -124,38 +124,38 @@ We interpreted the various findings and visualizations to build a recommendation
 ![Distribution of sales volume by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/68d8ca9e-0d1e-4ae6-b955-002a5aeb2ef0)
 
 Our analysis reveals that there is a significant variation in the volume of sales across the months in year.<br>
-i.) January and February starts off the year with low sales of around 1,000 houses per month.<br>
-ii.) The volume starts to rise in March, where it is about 1,500 houses.<br>
-iii.) From April to July, the volume is about 2,000 houses per month.<br>
-iv.) May has the highest volume at above 2,000 houses.<br>
-v.) The volume starts to decline to around 1,700 houses in August and 1,500 houses in September.<br>
+i.) January and February starts off the year with low sales of around **1,000 houses per month**.<br>
+ii.) The volume starts to rise in March, where it is about **1,500 houses**.<br>
+iii.) From April to July, the volume is about **2,000 houses per month**.<br>
+iv.) May has the highest volume at above **2,000 houses**.<br>
+v.) The volume starts to decline to around **1,700 houses** in August and **1,500 houses** in September.<br>
 vi.) There is a slight increase in October, but the price then drops through November and December.
 
 ![Distribution of mean sale price by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/a311d00d-af9e-42e3-a0b0-b0fe9fdee95b)
 
 The distribution of mean sale prices over the months in a year also shows that there are significant differences.<br>
-i.) The months of January and February have lower mean prices of between $500,000 and $525,000.<br>
-ii.) The mean price from March to August is around $550,000 or higher. April has the highest mean price of above $550,000.<br>
+i.) The months of January and February have lower mean prices of between **$500,000** and **$525,000**.<br>
+ii.) The mean price from March to August is around **$550,000** or higher. April has the highest mean price of above **$550,000**.<br>
 iii.) The mean price drops slightly in August and September, rises slightly in October, and then drops again in November and December.<br>
 ### 2. Relationship between house grade and sales performance
 
 ![Distribution of sales volume by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/40bf1241-f1d0-4638-86dd-b8c312847343)
 
-Our analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about 8,000 houses. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around 100 or fewer.
+Our analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about **8,000 houses**. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around **100** or fewer.
 
 ![Distribution of mean sale price by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/8f714ddd-5634-42d1-8489-a7ea486936e5)
 
-Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between $250,000 to $500,000. From grade 9 to 13, the mean sale price rises from around $600,000 to over $3,500,000.
+Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between **$250,000** to **$500,000**. From grade 9 to 13, the mean sale price rises from around **$600,000** to over **$3,500,000**.
 
 ### 3. The relationship between number of bedrooms and sales performance
 On all social media platforms and social environments, almost everyone wants to know the number of bedrooms when they're scouting for houses. We therefore saw the need to find out if there is a relationship between the number of bedrooms and sales perfomance.
 
 Our analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:<br>
-i.) The sales volume, which follows a normal distribution with a peak volume of 8,000 houses at the median number of 3 bedrooms.<br>
+i.) The sales volume, which follows a normal distribution with a peak volume of **8,000 houses** at the median number of 3 bedrooms.<br>
 
 ![Distribution of sales volume by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/312e4db1-87b3-4928-8b84-3a706b0c7af7)
 
-ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is $1,200,000 at 8 bedrooms. For houses with 3 bedrooms, the mean price is only $465,000.<br>
+ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is **$1,200,000** at 8 bedrooms. For houses with 3 bedrooms, the mean price is only **$465,000**.<br>
 
 ![Distribution of mean sale price by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/84a74027-035d-44b8-8909-a0af704e18d3)
 
@@ -211,11 +211,11 @@ The northwestern States are characterized by sub-zero degree Winter months, whic
 
 Our analysis reveals that there is a variation in the volume of sales across the months in year.<br>
 
-i.) January and February starts off the year with low sales of around 1,000 houses per month.<br>
-ii.) The volume starts to rise in March, where it is about 1,500 houses.<br>
-iii.) From April to July, the volume is about 2,000 houses per month.<br>
-iv.) May has the highest volume at above 2,000 houses.<br>
-v.) The volume starts to decline to around 1,700 houses in August and 1,500 houses in September.<br>
+i.) January and February starts off the year with low sales of around **1,000 houses per month**.<br>
+ii.) The volume starts to rise in March, where it is about **1,500 houses**.<br>
+iii.) From April to July, the volume is about **2,000 houses per month**.<br>
+iv.) May has the highest volume at above **2,000 houses**.<br>
+v.) The volume starts to decline to around **1,700 houses** in August and **1,500 houses** in September.<br>
 vi.) There is a slight increase in October, but the price then drops through November and December.
 
 This trend coincides with the seasons in the USA. Winter runs from December to Mid-March, and the Northwestern States being colder, people tend to move to warmer southern states or countries.<br>
@@ -225,8 +225,8 @@ Spring runs from mid-March to mid-June, while Summer runs from June to August. D
 Finally, Fall, which runs from September to December, heralds the start of another cold season, at which people start moving out of the northwestern states.<br>
 
 The distribution of mean sale prices over the months in a year also shows that there are significant differences.<br>
-i.) The months of January and February have lower mean prices of between $500,000 and $525,000.<br>
-ii.) The mean price from March to August is around $550,000 or higher. April has the highest mean price of above $550,000.<br>
+i.) The months of January and February have lower mean prices of between **$500,000** and **$525,000**.<br>
+ii.) The mean price from March to August is around **$550,000** or higher. April has the highest mean price of above **$550,000**.<br>
 iii.) The mean price drops slightly in August and September, rises slightly in October, and then drops again in November and December.<br>
 
 ### Grade
@@ -235,7 +235,7 @@ Grade is a classification by construction quality which refers to the types of m
 
 Our analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about 8,000 houses. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around 100 or fewer.
 
-Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between $250,000 to $500,000. From grade 9 to 13, the mean sale price rises from around $600,000 to over $3,500,000.
+Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between **$250,000** to **$500,000**. From grade 9 to 13, the mean sale price rises from around **$600,000** to over **$3,500,000**.
 
 ### Number of Bedrooms
 
@@ -244,7 +244,7 @@ On all social media platforms and social environments, almost everyone wants to 
 Our analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:
 
 i.) The sales volume, which follows a normal distribution with a peak volume of 8,000 houses at the median number of 3 bedrooms.<br>
-ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is $1,200,000 at 8 bedrooms. For houses with 3 bedrooms, the mean price is only $465,000.
+ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is **$1,200,000** at 8 bedrooms. For houses with 3 bedrooms, the mean price is only **$465,000**.
 
 ### Distribution of Sales and Mean Sale Prices by Location
 
@@ -255,11 +255,11 @@ The heatmap showing the locations with top 10 mean prices also reveals that all 
 This trend is to be expected, since Seattle is the most populous and most advanced city in King County and in the Washington State in general. Therefore, the number of homes on sale, the demand for houses, and the ability to purchase more expensive homes is to be found in Seattle.
 
 ## RECOMMENDATIONS TO TEAM HOWLETT REALTORS
-For a home buyer to realize the best value their home buyer and a seller or for Team Howlett Reators to fetch optimal returns, they should give higher consideration to these five factors:
-i.) The size of the interior living area in square feet
-ii.) The grade of the house, which is a classification by construction quality
-iii.) The square footage of the house excluding the basement
-iv.) The average size of interior living space for the closest 15 houses, in square feet
+For a home buyer to realize the best value their home buyer and a seller or for Team Howlett Reators to fetch optimal returns, they should give higher consideration to these five factors:<br>
+i.) The size of the interior living area in square feet<br>
+ii.) The grade of the house, which is a classification by construction quality<br>
+iii.) The square footage of the house excluding the basement<br>
+iv.) The average size of interior living space for the closest 15 houses, in square feet<br>
 v.) The number of bathrooms
 
 We would advise a buyer to consider buying a house in the offpeak months of January, February, September, October, November, or December, since this is the period they're likely to get a significant discount.
